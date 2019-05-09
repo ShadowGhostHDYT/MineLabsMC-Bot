@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const bot = new Discord.Client({disableEveryone: true});
 const embed = new Discord.RichEmbed()
-bot.login(process.env.SECRET)
+bot.login(process.env.BOT_TOKEN)
 
 bot.on("ready", () => {
     console.log("Der VerniktMC.tk Bot ist jetzt Online!")
